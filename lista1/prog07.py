@@ -4,4 +4,12 @@ Elaborar um programa em Python que efetue a apresentação do valor da conversã
 
 """
 
+cotacao = float(input("Digite o valor da cotação do dólar: "))
+quantidade_dolar = float(input("Digite a quantidade de dólares a ser convertido para reais: "))
+
+# cálculo de  conversão de US$ para R$
+quantidade_reais = cotacao * quantidade_dolar
+
+print("A quantidade em reais: {:.2f}".format(quantidade_reais))
+
 
